@@ -40,5 +40,4 @@ dependencies {
     compile 'com.android.support:support-annotations:' + rootProject.ext.supportVersion
     compile 'com.android.support:support-v4:' + rootProject.ext.supportVersion
     compile 'com.android.support:appcompat-v7:' + rootProject.ext.supportVersion
-    compile files('libs/nineoldandroids-2.4.0.jar')
 }

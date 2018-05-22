@@ -22,9 +22,6 @@
         <activity
             android:name=".ani.TweenedAniActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".ani.MyProjectActivity"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.joe.animation.ani.FrameAniActivity;
-import com.joe.animation.ani.MyProjectActivity;
 import com.joe.animation.ani.TweenedAniActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,12 +29,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startXActivity(TweenedAniActivity.class);
-            }
-        });
-        findViewById(R.id.btnMy).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startXActivity(MyProjectActivity.class);
             }
         });
     }
