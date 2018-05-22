@@ -30,6 +30,7 @@
             android:text="补间动画" />
         <Button
             android:id="@+id/btnMy"
+            android:visibility="gone"
             style="@style/style_btn_item"
             android:text="我的动画" />
 
