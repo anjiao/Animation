@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate
+        android:fillAfter="true"
+        android:duration="2000"
+        android:fromDegrees="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="180.0" />
+
+    //fromDegrees代表起始的角度，浮点值，单位：度
+    //toDegrees代表结束的角度，浮点值，单位：度
+    //android:pivotX 属性代表旋转中心的X坐标值 数值表示对应xy轴的左上角 也可以设置百分比
+    //android:pivotY 属性代表旋转中心的Y坐标值 数值表示对应xy轴的左上角 也可以设置百分比
+    //fillAfter 设置true表示保持执行完动画之后的状态
+
+</set>
