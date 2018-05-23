@@ -24,15 +24,16 @@
             android:id="@+id/btnFrameAni"
             style="@style/style_btn_item"
             android:text="帧动画" />
+
         <Button
             android:id="@+id/btnTweenAni"
             style="@style/style_btn_item"
             android:text="补间动画" />
+
         <Button
-            android:id="@+id/btnMy"
-            android:visibility="gone"
+            android:id="@+id/btnJava"
             style="@style/style_btn_item"
-            android:text="我的动画" />
+            android:text="补间动画（Java版）" />
 
 
     </LinearLayout>

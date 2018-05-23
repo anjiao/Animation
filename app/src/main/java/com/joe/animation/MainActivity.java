@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.joe.animation.ani.FrameAniActivity;
 import com.joe.animation.ani.TweenedAniActivity;
+import com.joe.animation.ani.TweenedJavaActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startXActivity(TweenedAniActivity.class);
+            }
+        });
+        findViewById(R.id.btnJava).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startXActivity(TweenedJavaActivity.class);
             }
         });
     }
